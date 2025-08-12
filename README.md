@@ -1,18 +1,18 @@
 ## Athlete Training Analysis (NumPy Project)
 This project simulates and analyzes sports training data using NumPy.
 The script generates 20 days of training results for 10 athletes across four performance metrics:
- • Sprint — time for a short-distance run (seconds)
- • Push-ups — number of push-ups per minute
- • Long jump — distance in meters
- • Heart rate — beats per minute (BPM)
+ 1. Sprint — time for a short-distance run (seconds)
+ 2. Push-ups — number of push-ups per minute
+ 3. Long jump — distance in meters
+ 4. Heart rate — beats per minute (BPM)
 ## Features
- • Generate a synthetic dataset of athlete training sessions.
- • Identify the best athletes in sprint, push-ups, and long jump.
- • Find record-breaking results across all days.
- • Determine the most consistent sprinter based on variance.
- • Days when all athletes ran faster than a given time.
- • Days when any athlete jumped further than a set distance.
- • Categorize athletes based on sprint speed and heart rate levels.
+ 1. Generate a synthetic dataset of athlete training sessions.
+ 2. Identify the best athletes in sprint, push-ups, and long jump.
+ 3. Find record-breaking results across all days.
+ 4. Determine the most consistent sprinter based on variance.
+ 5. Days when all athletes ran faster than a given time.
+ 6. Days when any athlete jumped further than a set distance.
+ 7. Categorize athletes based on sprint speed and heart rate levels.
 ## Project Structure
  1. generated_data.py — generates the dataset with random training results.
  2. analyze.py — contains all analysis functions.
